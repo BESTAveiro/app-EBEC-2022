@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/partners_textView"
-        android:layout_width="101dp"
+        android:layout_width="92dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Partners"
@@ -20,11 +20,12 @@
 
     <Button
         android:id="@+id/button_lk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="LinkedIn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/linkedinlogo"
         app:layout_constraintEnd_toEndOf="@+id/button_fb"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/button_fb"
         app:layout_constraintTop_toBottomOf="@+id/button_fb" />
 
@@ -53,30 +54,29 @@
 
     <Button
         android:id="@+id/button_flr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="flickr"
-        app:layout_constraintEnd_toEndOf="@+id/button_insta"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="@+id/button_insta"
-        app:layout_constraintTop_toTopOf="@+id/button_lk" />
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/flickr_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_fb" />
 
     <Button
         android:id="@+id/button_tt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Twitter"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/twitterlogo"
         app:layout_constraintEnd_toEndOf="@+id/button_web"
         app:layout_constraintStart_toStartOf="@+id/button_web"
         app:layout_constraintTop_toTopOf="@+id/button_lk" />
 
     <Button
         android:id="@+id/button_fb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:text="Facebook"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/facebooklogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -92,20 +92,22 @@
 
     <Button
         android:id="@+id/button_web"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Website"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ebecwebsitelogo"
         app:layout_constraintEnd_toStartOf="@+id/button_insta"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toEndOf="@+id/button_fb"
         app:layout_constraintTop_toTopOf="@+id/button_fb" />
 
     <Button
         android:id="@+id/button_insta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:text="Instagram"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button_fb" />
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/instagramlogo"
+        app:layout_constraintEnd_toEndOf="@+id/button_flr"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_flr"
+        app:layout_constraintTop_toTopOf="@+id/button_lk" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
