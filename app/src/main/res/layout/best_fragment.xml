@@ -20,12 +20,12 @@
 
     <Button
         android:id="@+id/button_lk"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginTop="28dp"
         android:background="@drawable/linkedinlogo"
         app:layout_constraintEnd_toEndOf="@+id/button_fb"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="@+id/button_fb"
         app:layout_constraintTop_toBottomOf="@+id/button_fb" />
 
@@ -54,28 +54,29 @@
 
     <Button
         android:id="@+id/button_flr"
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:layout_marginEnd="25dp"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="28dp"
         android:background="@drawable/flickr_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button_fb" />
 
     <Button
         android:id="@+id/button_tt"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/twitterlogo"
         app:layout_constraintEnd_toEndOf="@+id/button_web"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="@+id/button_web"
         app:layout_constraintTop_toTopOf="@+id/button_lk" />
 
     <Button
         android:id="@+id/button_fb"
-        android:layout_width="100dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="6dp"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="4dp"
         android:background="@drawable/facebooklogo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -92,18 +93,18 @@
 
     <Button
         android:id="@+id/button_web"
-        android:layout_width="100dp"
+        android:layout_width="90dp"
         android:layout_height="45dp"
         android:background="@drawable/ebecwebsitelogo"
         app:layout_constraintEnd_toStartOf="@+id/button_insta"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toEndOf="@+id/button_fb"
         app:layout_constraintTop_toTopOf="@+id/button_fb" />
 
     <Button
         android:id="@+id/button_insta"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/instagramlogo"
         app:layout_constraintEnd_toEndOf="@+id/button_flr"
         app:layout_constraintHorizontal_bias="0.0"
