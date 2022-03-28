@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="8dp"
             android:text="Sponsors"
             android:textSize="24sp"
@@ -32,7 +32,6 @@
             android:id="@+id/imageView6"
             android:layout_width="232dp"
             android:layout_height="97dp"
-            android:layout_marginTop="20dp"
             android:src="@drawable/ubiwhere"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +40,7 @@
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="209dp"
-            android:layout_height="119dp"
+            android:layout_height="90dp"
             android:src="@drawable/magma"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,21 +48,20 @@
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="140dp"
-            android:layout_height="150dp"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="12dp"
             android:layout_marginEnd="40dp"
             android:src="@drawable/ipdj_logo"
             app:layout_constraintEnd_toStartOf="@+id/imageView9"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView11" />
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="140dp"
-            android:layout_height="150dp"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
             android:layout_marginEnd="40dp"
             android:src="@drawable/uua_logo"
             app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +70,7 @@
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="299dp"
-            android:layout_height="98dp"
+            android:layout_height="90dp"
             android:src="@drawable/bocadolobo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,8 +78,8 @@
 
         <ImageView
             android:id="@+id/imageView11"
-            android:layout_width="140dp"
-            android:layout_height="150dp"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
             android:layout_marginStart="40dp"
             android:src="@drawable/canyouescape"
             app:layout_constraintStart_toStartOf="parent"
@@ -89,8 +87,8 @@
 
         <ImageView
             android:id="@+id/imageView12"
-            android:layout_width="140dp"
-            android:layout_height="150dp"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
             android:layout_marginEnd="40dp"
             android:src="@drawable/dominos"
             app:layout_constraintEnd_toEndOf="parent"
