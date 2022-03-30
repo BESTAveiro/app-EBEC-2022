@@ -7,50 +7,50 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="best.Aveiro.EBEC.ui.home.HomeFragment"
+        android:name="beest.Aveiroo.EBEC.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="best.Aveiro.EBEC.ui.gallery.GalleryFragment"
+        android:name="beest.Aveiroo.EBEC.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_teams"
-        android:name="best.Aveiro.EBEC.ui.team_details.TeamDetails"
+        android:name="beest.Aveiroo.EBEC.ui.team_details.TeamDetails"
         android:label="@string/menu_teams"
         tools:layout="@layout/team_details_fragment" >
 
     </fragment>
     <fragment
         android:id="@+id/nav_schedule"
-        android:name="best.Aveiro.EBEC.ui.schedule.ScheduleFragment"
+        android:name="beest.Aveiroo.EBEC.ui.schedule.ScheduleFragment"
         android:label="@string/menu_schedule"
         tools:layout="@layout/schedule_fragment" />
     <fragment
         android:id="@+id/teamDetails"
-        android:name="best.Aveiro.EBEC.ui.team_details.TeamDetails"
+        android:name="beest.Aveiroo.EBEC.ui.team_details.TeamDetails"
         android:label="TeamDetails" />
     <fragment
         android:id="@+id/nav_admin"
-        android:name="best.Aveiro.EBEC.ui.admin.AdminFragment"
+        android:name="beest.Aveiroo.EBEC.ui.admin.AdminFragment"
         android:label="@string/menu_admin"
         tools:layout="@layout/admin_fragment" />
     <fragment
         android:id="@+id/nav_best"
-        android:name="best.Aveiro.EBEC.ui.best.best"
+        android:name="beest.Aveiroo.EBEC.ui.BEST.best"
         android:label="@string/menu_best"
         tools:layout="@layout/best_fragment" />
     <fragment
         android:id="@+id/nav_chat"
-        android:name="best.Aveiro.EBEC.ui.chat.ChatFragment"
+        android:name="beest.Aveiroo.EBEC.ui.chat.ChatFragment"
         android:label="Chat"
         tools:layout="@layout/chat_fragment" />
     <fragment
         android:id="@+id/nav_sponsors"
-        android:name="best.Aveiro.EBEC.ui.sponsors.Sponsors"
+        android:name="beest.Aveiroo.EBEC.ui.sponsors.Sponsors"
         android:label="Sponsors"
         tools:layout="@layout/fragment_sponsors" />
 </navigation>
